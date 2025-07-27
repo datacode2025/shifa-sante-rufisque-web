@@ -1,3 +1,6 @@
+import drMarieDubois from '@/assets/dr-marie-dubois.jpg'
+import drPierreMartin from '@/assets/dr-pierre-martin.jpg'
+
 function About() {
   return (
     <div className="max-w-4xl mx-auto p-8">
@@ -16,7 +19,7 @@ function About() {
           <div className="text-center">
             <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-secondary-100">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&h=400"
+                src={drMarieDubois}
                 alt="Dr. Marie Dubois"
                 className="w-full h-full object-cover"
               />
@@ -34,7 +37,7 @@ function About() {
           <div className="text-center">
             <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-secondary-100">
               <img 
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&h=400"
+                src={drPierreMartin}
                 alt="Dr. Pierre Martin"
                 className="w-full h-full object-cover"
               />
